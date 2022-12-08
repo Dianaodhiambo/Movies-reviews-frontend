@@ -18,11 +18,6 @@ const App = () => {
             <Route exact path='/createaccount' element={<CreateAccount/>}/>
        </Routes>
     </div>
-    
-        
-
-    
-    
  
   )
 }
