@@ -2,7 +2,6 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 import { FaSearch } from 'react-icons/fa';
 
-
 const Navbar = () => {
   return (
     <>
