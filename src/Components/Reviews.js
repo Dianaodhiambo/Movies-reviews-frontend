@@ -12,7 +12,7 @@ const Review = ({onAddReview}) => {
   function handleReviewChange(e){
     setNewReview(e.target.value)
   }
-
+  
   function addReview(e) {
     e.preventDefault();
 
