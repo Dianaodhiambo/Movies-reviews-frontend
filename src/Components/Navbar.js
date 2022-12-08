@@ -16,7 +16,6 @@ const Navbar = () => {
                 <div className="search-btn">
                     <input type="text" placeholder="Enter Movie Name" className="inputText"></input>
                     <button><FaSearch/></button>
-
                 </div>
             </form>
         </div>
