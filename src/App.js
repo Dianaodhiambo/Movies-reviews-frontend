@@ -7,7 +7,6 @@ import Home from './Components/Home'
 import CreateAccount from './Components/CreateAccount'
 import Review from './Components/Reviews'
 
-
 const App = () => {
   return (
    <div>
