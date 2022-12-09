@@ -5,17 +5,18 @@ import './App.css'
 import MovieList from './Components/MovieList'
 import Home from './Components/Home'
 import CreateAccount from './Components/CreateAccount'
-import Review from './Components/Reviews'
+import Reviews from './Components/Reviews'
 
 const App = () => {
   return (
    <div>
+    
     <Navbar/>
       <Routes>
          <Route exact path = '/home' element={<Home/>}/>
-            <Route exact path='/movies' element={<MovieList/>}/>
-            <Route exact path='/reviews' element={<Review />}/>
-            <Route exact path='/createaccount' element={<CreateAccount/>}/>
+          <Route exact path='/reviews' element={<Reviews/>}/>
+          <Route exact path='/movieslist' element={<MovieList/>}/>
+          <Route exact path='/createaccount' element={<CreateAccount/>}/>
        </Routes>
     </div>
  
