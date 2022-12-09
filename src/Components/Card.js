@@ -2,15 +2,21 @@ import React from 'react'
 
 const Card = ({title, description,category, image_url}) => {
   return (
-    <div className='box'>
-        <h1>{title}</h1>
-     <div className="Poster">
-        <img src={image_url} alt={title} height="800"/>
+    <div className='Box'>
+      <div className="Poster">
+        <img src={image_url} alt={title} height="600"/>
       </div>
-      <div className="description">
-        {description}
+      <div className="kuhusu">
+        <div className="details">
+          <h4 className='title'>{title}</h4>
+          <p className='Category'>{category}</p>
+        </div> 
+        <div className="description">
+          <h1>Overview</h1>
+            {description}
         </div>
-        <p>{category}</p>
+       </div>
+        
 
     </div>
   )

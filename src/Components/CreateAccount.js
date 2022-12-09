@@ -34,7 +34,7 @@ function CreateAccount() {
   return (
     <div id="register">
         <div className="Register" style={{textAlign:"center", color:"#5A738E", fontWeight:"bold"}}>
-                <h2>New User</h2>
+                <h2>Mo-vife</h2>
                 <span>Welcome to Mo-Vife!</span>
 
                 <div id="Column" align='center'>
@@ -53,7 +53,7 @@ function CreateAccount() {
                         onChange={(e) => setPassword(e.target.value)}
                         /> 
 
-                    <button className="btn">Login</button>
+                    <button className="btn">SignUp</button>
 
                     <div className="message">{message ? <p>{message}</p> : null}</div>
                 </form>

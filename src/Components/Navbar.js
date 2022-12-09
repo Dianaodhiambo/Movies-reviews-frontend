@@ -7,9 +7,10 @@ const Navbar = () => {
     <>
         <div className="navbar">
             <div className="navlinks">
+                
                 <NavLink to="/home">Home</NavLink>
                 <NavLink to="/reviews">Reviews</NavLink>
-                <NavLink to="/movies">Movies</NavLink>
+                <NavLink to="/movieslist">Movies</NavLink>
                 <NavLink to="/createaccount">CreateAccount</NavLink> 
             </div>
             <form>
