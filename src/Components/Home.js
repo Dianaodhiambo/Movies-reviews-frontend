@@ -6,38 +6,7 @@ import img3 from '../Assets/download.jpeg'
 import img4 from '../Assets/image4.jpeg'
 import img5 from '../Assets/image5.jpg'
 
-
-// const LandingPage = ({ reviews, onDeleteReview }) => {
-//   const id=reviews.map((review) => {
-//     return review.id;
-//   });
-  
-//     function handleDelete() {
-//       fetch(`http://127.0.0.1:3000/reviews${id}`, {
-//         method: "DELETE",
-//         headers: {
-//           "Content-type": "application/json",
-//         },
-//       });
-//       onDeleteReview(id);
-//     }
-  
-//     const displayReview = reviews.map((reviews) => {
-//       return (
-//         <div key={reviews.id} className="reviews">
-//           <p>{reviews.username}</p>
-//           <p>{reviews.comment}</p>
-//           <p>{reviews.rating}</p>
-//           <p>{reviews.movie_id}</p>
-//           <div>
-//             <button>Edit</button>
-//             <button onClick={handleDelete}>Delete</button>
-//           </div>
-//         </div>
-//       );
-//     });
-
-  function Home(){
+ function Home(){
     return (
       <div className="main">
         <div className="overlay"></div>
@@ -83,6 +52,6 @@ import img5 from '../Assets/image5.jpg'
       </div>
     );
   }
- 
+
   
-  export default Home;
+export default Home;
