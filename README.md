@@ -1,75 +1,46 @@
-#Table of Contents
--Description
+## Movi-fe Movie Reviews App Front-end
 
--Features
+## Diana Odhiambo
 
--Behaviour Driven Development
+An application that will enable users to leave reviews for a wide range of movies
 
--Requirements
+## Ruby version
 
--Installation process
+ruby "2.7.4"
 
--Live Link
+## Installation
 
--Technology Used
+To open the project locally:
+Fork and clone both the front-end and back-end repositories
 
--License
+## Backend
 
--Authors Info
+cd into the project directory run 'bundle install' run 'rake db:migrate' run start-server to start the server.
 
-Description
-This is a Movie Review App that allow the owner to get feedback from users/p>
+## Front-end
 
-Go Back to the top
+cd into the project directory run 'npm install' run 'npm start' and the application will open into browser
 
-Go Back to the top
+## MVPS
+
+#### Users are able to register and login
+
+#### Users will be able to view all Movies
+
+#### Users will be able to search for movies
+
+#### Users will be able to add reviews and delete reviews once they are logged in
+
+## Deployed links
 
 Backend
-Click this Link to view my Backend: https://github.com/Dianaodhiambo/movies_reviews
-Behaviour Driven Development
-Behaviour	Input	Output
-Enter your name	Diana Odhiambo
-Enter your Email Address dianaodhiambo@gmail.com
-Go Back to the top
 
-Requirements
-*Access to a computer or any other garget
+Open [moviesreviews-production.up.railway.app](moviesreviews-production.up.railway.app) to view the backend
 
-*Access to the internet
+Front-end
 
-Installation Process
-*Clone the repo: https://github.com/Dianaodhiambo/Movies-reviews-frontend
+Open [movifemoviereviewsapp.netlify.app](https://movifemoviereviewsapp.netlify.app)
 
-*Unzip the downloaded files in a folder of choice.
+## Back-end github link
 
-*Open the index files from the zipped file with any browser.
-
-Go Back to the top
-
-Live Link
--Click this link to view the application: 
-
-Technology Used
-*REACT-JS -Which was used to give functionality to the project.
-
-*RUBY ON RAILS - Used for my BackEnd
-
-Go Back to the top
-
-Known Bugs
-*The app displays broken images due to CORB related issues.
-
-License
-Copyright(c) [2022][Diana Odhiambo]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files , to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Authors Inf
-
-Email - (dianaodhiambo1096@gmail.com)
-
-Go Back to the top
+[https://github.com/Dianaodhiambo/movies_reviews](https://github.com/Dianaodhiambo/movies_reviews)
