@@ -5,7 +5,7 @@ function MovieList () {
     const [movies, setMovies] = useState([])
 
 useEffect(()=> {
-    fetch("http://127.0.0.1:3000/movies")
+    fetch("https://moviesreviews-production.up.railway.app//movies")
     .then((r) => r.json())
     .then((movies)=> {
         setMovies(movies);
